@@ -11,4 +11,4 @@ Now, we reprocess the data. I have not attached the data since the right of attr
 
 The last step is to train the model with ‘Train.py’. At this point, we encounter many lazy CNNs. We have opened this problem on ‘[Stackoverflow](https://stackoverflow.com/questions/47846824/how-to-prevent-a-lazy-convolutional-neural-network)’ and hope someone can solve it. Here is our CNN. I think the problem is related with the structure of the neural network. A model that can drive the car on the track is in directory ‘Model’. Use it with ‘drive.py’. 
 
-![image](https://github.com/BlueBirdHouse/CarND-Behavioral-Cloning-P3/tree/master/Figs/Dmodel.png)
+![image](./Figs/Dmodel.png)
