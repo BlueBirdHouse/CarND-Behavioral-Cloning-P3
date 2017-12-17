@@ -9,6 +9,6 @@ To clone a human driver, you should find a good driver firstly. I have tried and
 
 Now, we reprocess the data. I have not attached the data since the right of attribution is not clean. The forward trip is attached into ‘Left.rar’, and the backward trip is in ‘Right.rar’. Copy an executable ‘unrar.exe’ from the ‘WinRAR’ directory; run ‘ReadData.py’ to transform simulator generated files to Python Pickle files. At later, ‘PretreatmentData.py’ augment data by flip the figure. The experiment shows the additional data will lead a better CNN.
 
-The last step is to train the model with ‘Train.py’. At this point, we encounter many lazy CNNs. We have opened this problem on ‘Stackoverflow’ and hope someone can solve it. Here is our CNN. I think the problem is related with the structure of the neural network. A model that can drive the car on the track is in directory ‘Model’. Use it with ‘drive.py’. 
+The last step is to train the model with ‘Train.py’. At this point, we encounter many lazy CNNs. We have opened this problem on ‘[Stackoverflow](https://stackoverflow.com/questions/47846824/how-to-prevent-a-lazy-convolutional-neural-network)’ and hope someone can solve it. Here is our CNN. I think the problem is related with the structure of the neural network. A model that can drive the car on the track is in directory ‘Model’. Use it with ‘drive.py’. 
 
-![image](http://note.youdao.com/favicon.ico)
+![image](https://github.com/BlueBirdHouse/CarND-Behavioral-Cloning-P3/tree/master/Figs/Dmodel.png)
